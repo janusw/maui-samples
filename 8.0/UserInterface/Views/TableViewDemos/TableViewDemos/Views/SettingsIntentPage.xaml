@@ -17,6 +17,19 @@
                 <EntryCell Label="Password"
                            Placeholder="password" />
             </TableSection>
+            <TableSection>
+                <ViewCell>
+                    <Picker Title="Choose">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>AAA</x:String>
+                                <x:String>BBB</x:String>
+                                <x:String>CCC</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                </ViewCell>
+            </TableSection>
             <TableSection Title="Silent">
                 <ViewCell>
                     <Grid RowDefinitions="Auto,Auto"
