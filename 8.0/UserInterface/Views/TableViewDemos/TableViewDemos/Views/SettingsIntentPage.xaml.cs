@@ -6,6 +6,10 @@
 		{
 			InitializeComponent ();
 		}
-	}
-}
 
+        void Button_Clicked(Object sender, EventArgs e)
+        {
+			pckr.ItemsSource = new List<String> { "AAA", "BBB", "CCC" };
+        }
+    }
+}

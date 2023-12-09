@@ -17,6 +17,14 @@
                 <EntryCell Label="Password"
                            Placeholder="password" />
             </TableSection>
+            <TableSection>
+                <ViewCell>
+                    <Picker x:Name="pckr" />
+                </ViewCell>
+                <ViewCell>
+                    <Button Text="Click me!" Clicked="Button_Clicked" />
+                </ViewCell>
+            </TableSection>
             <TableSection Title="Silent">
                 <ViewCell>
                     <Grid RowDefinitions="Auto,Auto"
