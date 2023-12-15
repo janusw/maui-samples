@@ -1,15 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ControlGallery.Views.XAML.ImageDemoPage"
              Title="Image Demo">
-    <StackLayout>
+    <StackLayout BackgroundColor="White">
         <Label Text="Image"
                FontSize="50"
                FontAttributes="Bold"
                HorizontalOptions="Center" />
 
-        <Image Source="https://aka.ms/campus.jpg"
+        <Image Source="directions_car.svg"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+
+        <Image Source="directions_boat.svg"
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand" />
     </StackLayout>
