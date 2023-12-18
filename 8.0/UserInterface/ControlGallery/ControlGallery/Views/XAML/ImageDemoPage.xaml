@@ -9,11 +9,11 @@
                FontAttributes="Bold"
                HorizontalOptions="Center" />
 
-        <Image Source="directions_car.svg"
+        <Image Source="directions_car.png"
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand" />
 
-        <Image Source="directions_boat.svg"
+        <Image Source="directions_boat.png"
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand" />
     </StackLayout>
