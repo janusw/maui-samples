@@ -5,8 +5,8 @@
              Title="Menu page">
     <TableView Intent="Menu">
         <TableRoot>
-            <TableSection Title="Chapters">
-                <TextCell Text="1. Introduction to .NET MAUI"
+            <TableSection Title="Chapters" TextColor="{AppThemeBinding Light={StaticResource Blue100Accent}, Dark={StaticResource Yellow100Accent}}">
+                <TextCell Text="1. Introduction to .NET MAUI" TextColor="{AppThemeBinding Light={StaticResource Blue100Accent}, Dark={StaticResource Yellow100Accent}}"
                           Detail="Learn about .NET MAUI and what it provides." />
                 <TextCell Text="2. Anatomy of an app"
                           Detail="Learn about the visual elements in .NET MAUI" />

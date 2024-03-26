@@ -17,11 +17,11 @@
                 <EntryCell Label="Password"
                            Placeholder="password" />
             </TableSection>
-            <TableSection Title="Silent">
+            <TableSection Title="Silent" TextColor="{DynamicResource Blue100Accent}">
                 <ViewCell>
                     <Grid RowDefinitions="Auto,Auto"
                           ColumnDefinitions="0.5*,0.5*">
-                        <Label Text="Vibrate"
+                        <Label Text="Vibrate" TextColor="{DynamicResource Blue100Accent}"
                                Margin="10,10,0,0"/>
                         <Switch Grid.Column="1"
                                 HorizontalOptions="End" />

@@ -5,8 +5,8 @@
 			 Title="Form page">
     <TableView Intent="Form">
         <TableRoot>
-            <TableSection Title="Login details">
-                <EntryCell Label="Login"
+            <TableSection Title="Login details" TextColor="{StaticResource Blue100Accent}">
+                <EntryCell Label="Login" LabelColor="{StaticResource Blue100Accent}"
                            Placeholder="username" />
                 <EntryCell Label="Password"
                            Placeholder="password" />
