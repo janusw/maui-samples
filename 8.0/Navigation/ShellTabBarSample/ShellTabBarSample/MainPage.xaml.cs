@@ -1,4 +1,7 @@
-﻿namespace ShellTabBarSample;
+﻿using CommunityToolkit.Maui.Alerts;
+using CommunityToolkit.Maui.Core;
+
+namespace ShellTabBarSample;
 
 public partial class MainPage : ContentPage
 {
@@ -9,7 +12,7 @@ public partial class MainPage : ContentPage
 		InitializeComponent();
 	}
 
-	private void OnCounterClicked(object sender, EventArgs e)
+	private async void OnCounterClicked(object sender, EventArgs e)
 	{
 		count++;
 
@@ -19,6 +22,7 @@ public partial class MainPage : ContentPage
 			CounterBtn.Text = $"Clicked {count} times";
 
 		SemanticScreenReader.Announce(CounterBtn.Text);
+
+		await Toast.Make(CounterBtn.Text, ToastDuration.Short).Show();
 	}
 }
-
