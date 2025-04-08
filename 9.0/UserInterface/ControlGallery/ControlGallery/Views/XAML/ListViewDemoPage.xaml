@@ -52,7 +52,7 @@
                                      HeightRequest="60" 
                                      WidthRequest="60" />
                             <StackLayout VerticalOptions="Center">
-                                <Label Text="{Binding Name}" />
+                                <Label Text="{Binding Name}" TextType="Html" />
                                 <Label Text="{Binding Birthday, StringFormat='Born {0:d}'}" />
                             </StackLayout>
                         </StackLayout>
